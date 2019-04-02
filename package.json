@@ -1,0 +1,33 @@
+{
+  "name": "footballistic",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "nodemon": "^1.18.10"
+  },
+  "description": "football blog",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nashville7/football_blog.git"
+  },
+  "keywords": [
+    "cr7"
+  ],
+  "author": "Nashville James",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nashville7/football_blog/issues"
+  },
+  "homepage": "https://github.com/Nashville7/football_blog#readme"
+}

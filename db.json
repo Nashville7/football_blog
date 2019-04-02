@@ -1,0 +1,32 @@
+{
+    "posts": [
+      { 
+          "id": 1, 
+          "title": "Football", 
+          "image":"url",
+          "date":"25/04/20",
+          "description":"string",
+          "author": "typicode" 
+        },
+    { 
+        "id": 2, 
+        "title": "Football", 
+        "image":"url",
+        "date":"25/04/20",
+        "description":"string",
+        "author": "typicode" 
+        }
+
+    ],
+
+    "comments": [
+      { 
+          "id": 1, 
+          "body": "some comment", 
+          "postId": 1 
+        }
+    ],
+    "profile": { 
+        "name": "typicode" 
+    }
+  }
