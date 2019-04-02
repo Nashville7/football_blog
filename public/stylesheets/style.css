@@ -1,13 +1,45 @@
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+header {
   background-color: rgb(60, 60, 179);
-  background-image: linear-gradient(-45deg, rgba(115, 133, 144, 0.17) 50%, rgba(0, 0, 0, 0.2) 50%),url(../images/drogba.jpg);
+  /* background-image: linear-gradient(-45deg, rgba(115, 133, 144, 0.17) 50%, rgba(0, 0, 0, 0.2) 50%),url(../images/drogba.jpg); */
+  /* background-image: url(../images/william.jpg); */
   background-repeat: no-repeat;
   /* object-fit: cover; */
   background-size: cover;
   height: 120vh;
   width: 100vw;
-  overflow-x: hidden;
+
+} 
+.w-100 {
+  background-image: url(../images/eden.jpg);
+  height: 100vh;
+  background-size: cover;
+  width: 100%;
+  /* background-position: center; */
+
+}
+.w-101 {
+  background-image: url(../images/william.jpg);
+  height: 100vh;
+  background-size: cover;
+  width: 100%;
+  /* background-position: center; */
+}
+
+.w-102 {
+  background-image: url(../images/drogba.jpg);
+  height: 100vh;
+  background-size: cover;
+  width: 100%;
+}
+
+.info {
+  height: 100vh;
+  background: #e6e6e6;
 }
 
 a {
