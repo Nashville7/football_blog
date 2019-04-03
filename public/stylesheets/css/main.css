@@ -1,0 +1,60 @@
+.info {
+  height: 100vh;
+  background: #e6e6e6; }
+
+.btn-primary {
+  color: #fff;
+  background-color: #0052b1 !important;
+  border-color: #007bff;
+  margin-right: 5rem !important; }
+
+.bg-dark {
+  background-color: #fafafa !important; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  width: 78.375rem;
+  margin: auto;
+  grid-gap: 1rem; }
+  .grid img {
+    width: 100%;
+    height: 100%;
+    -webkit-filter: blur(0.4px);
+    /* Safari 6.0 - 9.0 */
+    filter: blur(0.4px); }
+  .grid img:hover {
+    opacity: 1;
+    filter: blur(0); }
+
+.one {
+  opacity: 0.9; }
+
+.one:hover {
+  opacity: 1; }
+
+.info h1 {
+  color: black; }
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  overflow-x: hidden; }
+
+header {
+  background-color: #3c3cb3;
+  /* background-image: linear-gradient(-45deg, rgba(115, 133, 144, 0.17) 50%, rgba(0, 0, 0, 0.2) 50%),url(../images/drogba.jpg); */
+  background-image: url(/images/eden-best.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh;
+  width: 100vw; }
+
+h1 {
+  color: white;
+  padding: 5rem;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-weight: bolder; }
+
+/*# sourceMappingURL=main.css.map */
