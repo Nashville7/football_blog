@@ -1,5 +1,5 @@
 .info {
-  height: 100vh;
+  height: 120vh;
   background: #e6e6e6; }
 
 .btn-primary {
@@ -15,18 +15,14 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr 1fr;
-  width: 78.375rem;
+  padding: 0 1rem;
   margin: auto;
   grid-gap: 1rem; }
   .grid img {
     width: 100%;
-    height: 100%;
-    -webkit-filter: blur(0.4px);
-    /* Safari 6.0 - 9.0 */
-    filter: blur(0.4px); }
+    height: 100%; }
   .grid img:hover {
-    opacity: 1;
-    filter: blur(0); }
+    opacity: 1; }
 
 .one {
   opacity: 0.9; }
@@ -36,6 +32,18 @@
 
 .info h1 {
   color: black; }
+
+.under-heading {
+  color: white;
+  font-size: 25px;
+  text-align: center; }
+
+.title {
+  text-align: center;
+  font-family: 'Source Sans Pro';
+  font-size: 20px;
+  color: #636060 auto;
+  opacity: 1; }
 
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;

@@ -1,5 +1,5 @@
 .info {
-  height: 100vh;
+  height: 120vh;
   background: #e6e6e6;
 } 
 
@@ -18,21 +18,20 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr 1fr;
-  width: 78.375rem;
+  padding: 0 1rem;
   margin: auto;
   grid-gap: 1rem;
   img {
     width: 100%;
     height: 100%;
     // opacity: 0.9;
-    -webkit-filter: blur(0.4px); /* Safari 6.0 - 9.0 */
-  filter: blur(0.4px);
+   
  
   }
 
   img:hover {
     opacity: 1;
-    filter: blur(0);
+   
     
   }
 }
@@ -52,3 +51,24 @@
   }
 }
 
+
+.under-heading {
+  color: white;
+  font-size: 25px;
+  // padding: 0 5rem;
+  text-align: center;
+  
+}
+
+// iframe {
+//   width: 100%;
+//   height: 224px;
+// }
+
+.title {
+  text-align: center;
+  font-family: 'Source Sans Pro';
+  font-size: 20px;
+  color: rgb(99, 96, 96) auto;
+  opacity: 1;
+}
