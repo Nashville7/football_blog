@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
   var data = {
     title: 'Footballistic',
     name:'Nash',
-    posts: Posts,
+    blog: Posts,
     message: false
   };
 

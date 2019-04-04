@@ -61,15 +61,17 @@
     <section class="info">
       <h1>Lastest Transfer News</h1>
       <section class="grid">
-        <article class="one">
-          <div class="img">
-            <img src="/images/eden-hazard-hd-wallpapers-73922-504825.png">
-          </div>
-          <div class="text">
-            <p class="title">Will Eden Hazard leave?</p>
-            <p>Hazard, now 28, joined Chelsea in June 2012 from Lille. The Belgium captain signed a contract extension in February 2015, which expires in June 2020, so will have 12 months to run come the end of the 2018-19 season. This next deal will likely be the biggest of Hazard's career, when he is at his peak.<a class="read-more" href="https://www.sportinglife.com/football/news/will-hazard-leave-chelsea/158225">Read More</a></p>
-        </div>
-      </article>
+        <% blog.posts.forEach(function(item) { %>
+          <article class="one">
+              <div class="img">
+                <img src="/images/eden-hazard-hd-wallpapers-73922-504825.png">
+              </div>
+              <div class="text">
+                <p class="title">Will Eden Hazard leave?</p>
+                <p><%= item.description %> <a class="read-more" href="https://www.sportinglife.com/football/news/will-hazard-leave-chelsea/158225">Read More</a></p>
+            </div>
+          </article>
+        <% }); %> 
       <div class="parallax">
         
       </div>
@@ -99,6 +101,7 @@
             <p>The teenage Chelsea forward has burst onto the scene with club and country and is being backed to make an even greater impact at Stamford Bridge.Maurizio Sarri says Callum Hudson-Odoi has a huge future at Chelsea as he ponders whether to hand him his first Premier League start. <a class="read-more" href="https://www.goal.com/en-tza/news/echoes-of-rooney-in-fearless-hudson-odoi-and-interest-will-build-/14semabxkjdhn1bgr3zc5qj046">Read More</a></p>
         </div>
       </article>
+      
       <footer>
           <p>Copyright © 2019 Designed by Nashville James</p>
       </footer>
