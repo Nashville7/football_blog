@@ -5,9 +5,11 @@ var Posts = require('../db.json');
 /* GET home page. */
 router.get('/', function(req, res, next) {
   // res.render('index', { title: 'Express' });
+  
 
   var data = {
     title: 'Footballistic',
+    name:'Nash',
     posts: Posts,
     message: false
   };
