@@ -1,6 +1,7 @@
 .info {
-  height: 400vh;
+  // height: 400vh;
   background: #e6e6e6;
+
 } 
 
 .btn-primary {
@@ -37,7 +38,7 @@
   background-repeat: no-repeat;
   object-fit: cover;
   background-attachment: fixed;
-  margin: 0 20.5px;
+  // margin: 0 20.5px;
   // width: 100%;
 }
 
@@ -48,13 +49,14 @@
   background-repeat: no-repeat;
   object-fit: cover;
   background-attachment: fixed;
-  margin: 0 20.5px;
+  // margin: 0 20.5px;
 }
 
 
 .info {
   h1 {
     color: black;
+    font-size: 38px!important;
   }
 }
 
