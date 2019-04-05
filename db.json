@@ -3,12 +3,30 @@
       { 
           "id": 1, 
           "title": "Will Eden Hazard leave?", 
-          "image":"url",
-          "date":"25/04/20",
+          "image":"/images/eden-hazard-hd-wallpapers-73922-504825.png",
+          "date":"25 April 2019",
           "description":"Hazard, now 28, joined Chelsea in June 2012 from Lille. The Belgium captain signed a contract extension in February 2015, which expires in June 2020, so will have 12 months to run come the end of the 2018-19 season. This next deal will likely be the biggest of Hazard's career, when he is at his peak.",
-          "author": "typicode" 
-        }
+          "author": "Dj Nash",
+          "parallax": "parallax"
+        },
 
+        { 
+          "id": 2, 
+          "title": "Options for Coutinho",
+          "image":"images/coutinho.jpg",
+          "date":"25 April 2019",
+          "description": "Philippe Coutinho will not be short of options if he decides to leave Barcelona in the summer the Daily Mail reports Chelsea, Paris Saint-Germain and Manchester United are all keeping tabs with Barcelona willing to sell him for the right price in the summer",
+          "author": "Yebo",
+          "parallax": "parallax"
+        },
+        { 
+          "id": 3, 
+          "title": "Sarri on Hudson Odio",
+          "image":"images/callum-hudson-odoi-chelsea-2018-19_4qr1uxlnbjcs1gz1wki2m7p1t.jpg",
+          "date":"25 April 2019",
+          "description": "The teenage Chelsea forward has burst onto the scene with club and country and is being backed to make an even greater impact at Stamford Bridge.Maurizio Sarri says Callum Hudson-Odoi has a huge future at Chelsea as he ponders whether to hand him his first Premier League start.",
+          "author": "Yebo" 
+        }
     ],
 
     "users": [

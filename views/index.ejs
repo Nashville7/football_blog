@@ -64,45 +64,19 @@
         <% blog.posts.forEach(function(item) { %>
           <article class="one">
               <div class="img">
-                <img src="/images/eden-hazard-hd-wallpapers-73922-504825.png">
+                <img src="<%= item.image %>">
               </div>
               <div class="text">
                 <p class="title2"><%= item.title %></p>
                 <p><%= item.description %> <a class="read-more" href="https://www.sportinglife.com/football/news/will-hazard-leave-chelsea/158225">Read More</a></p>
-                <p class="date"></p>
+                <p class="date"><%= item.date %></p>
+                <p class="author"><%= item.author %></p>
             </div>
+            <div class="<%= item.parallax %>"></div>
           </article>
         <% }); %> 
-      <div class="parallax">
-        
-      </div>
-      <article class="one">
-          <div class="img">
-            <img src="images/coutinho.jpg">
-          </div>
-          <div class="text">
-            <p class="title2">Options for Coutinho</p>
-            <p>
-                Philippe Coutinho will not be short of options if he decides to leave Barcelona in the summer, the Daily Mail reports.
-                
-                Chelsea, Paris Saint-Germain and Manchester United are all keeping tabs with Barcelona willing to sell him for the right price in the summer.<a class="read-more" href="https://www.sport-english.com/en/news/opinion/barca-four-options-with-philippe-coutinho-7292302">Read More</a></p>
-        </div>
-      </article>
-      <div class="parallax2">
-        
-        </div>
-      <article class="one">
-       
-          <div class="img">
-            <img src="/images/callum-hudson-odoi-chelsea-2018-19_4qr1uxlnbjcs1gz1wki2m7p1t.jpg">
-            <!-- <iframe src="https://www.youtube.com/embed/uDFtGHLGdLQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-          </div>
-          <div class="text">
-            <p class="title2">Sarri on Hudson Odio</p>
-            <p>The teenage Chelsea forward has burst onto the scene with club and country and is being backed to make an even greater impact at Stamford Bridge.Maurizio Sarri says Callum Hudson-Odoi has a huge future at Chelsea as he ponders whether to hand him his first Premier League start. <a class="read-more" href="https://www.goal.com/en-tza/news/echoes-of-rooney-in-fearless-hudson-odoi-and-interest-will-build-/14semabxkjdhn1bgr3zc5qj046">Read More</a></p>
-        </div>
-      </article>
-      
+     
+
       <footer>
           <p>Copyright © 2019 Designed by Nashville James</p>
       </footer>
