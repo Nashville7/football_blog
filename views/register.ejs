@@ -4,93 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="register.js">
-    		
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<!---- boostrap.min link local ----->
-		
-		<link rel="stylesheet" href="css/style.css">
-		<!---- boostrap.min link local ----->
-
-		<script src="js/bootstrap.min.js"></script>
-		<!---- Boostrap js link local ----->
-		
-		<link rel="icon" href="images/icon.png" type="image/x-icon" />
-		<!---- Icon link local ----->
-		
-	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-		<!---- Font awesom link local ----->
-    <title>Document</title>
+    <title>Sign-up</title>
 </head>
 <body>
-    	<div class="container-fluid">
-                <div class="container">
-                    <h2 class="text-center" id="title">Facundo farm and Resort</h2>
-                     <p class="text-center">
-                        <small id="passwordHelpInline" class="text-muted"> Developer: follow me on facebook <a href="https://www.facebook.com/JheanYu"> John niro yumang</a> inspired from <a href="https://p.w3layouts.com/">https://p.w3layouts.com/</a>.</small>
-                    </p>
-                     <hr>
-                    <div class="row">
-                        <div class="col-md-5">
-                             <form role="form" method="post" action="register.php">
-                                <fieldset>							
-                                    <p class="text-uppercase pull-center"> SIGN UP.</p>	
-                                     <div class="form-group">
-                                        <input type="text" name="username" id="username" class="form-control input-lg" placeholder="username">
-                                    </div>
-        
-                                    <div class="form-group">
-                                        <input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="password" name="password" id="password" class="form-control input-lg" placeholder="Password">
-                                    </div>
-                                        <div class="form-group">
-                                        <input type="password" name="password2" id="password2" class="form-control input-lg" placeholder="Password2">
-                                    </div>
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                          <input type="checkbox" class="form-check-input">
-                                          By Clicking register you're agree to our policy & terms
-                                        </label>
-                                      </div>
-                                     <div>
-                                               <input type="submit" class="btn btn-lg btn-primary   value="Register">
-                                     </div>
-                                </fieldset>
-                            </form>
-                        </div>
-                        
-                        <div class="col-md-2">
-                            <!-------null------>
-                        </div>
-                        
-                        <div class="col-md-5">
-                                  <form role="form">
-                                <fieldset>							
-                                    <p class="text-uppercase"> Login using your account: </p>	
-                                         
-                                    <div class="form-group">
-                                        <input type="email" name="username" id="username" class="form-control input-lg" placeholder="username">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="password" name="password" id="password" class="form-control input-lg" placeholder="Password">
-                                    </div>
-                                    <div>
-                                        <input type="submit" class="btn btn-md" value="Sign In">
-                                    </div>
-                                         
-                                 </fieldset>
-                        </form>	
-                        </div>
-                    </div>
-                </div>
-                <p class="text-center">
-                    <small id="passwordHelpInline" class="text-muted"> Developer:<a href="http://www.psau.edu.ph/"> Pampanga state agricultural university ?</a> BS. Information and technology students @2017 Credits: <a href="https://v4-alpha.getbootstrap.com/">boostrap v4.</a></small>
-                </p>
-            </div>
-    	<script src="jquery/jquery.min.js"></script>
-		<!---- jquery link local dont forget to place this in first than other script or link or may not work ---->
+    <div class="container">
 
+            <div class="signup-form-container">
+            
+                    <!-- form start -->
+                    <form role="form" id="register-form" autocomplete="off">
+                    
+                    <div class="form-header">
+                    <h3 class="form-title"><i class="fa fa-user"></i> Sign Up</h3>
+                                
+                    <div class="pull-right">
+                        <h3 class="form-title"><span class="glyphicon glyphicon-pencil"></span></h3>
+                    </div>
+                                
+                    </div>
+                    
+                    <div class="form-body">
+                                
+                    <div class="form-group">
+                            <div class="input-group">
+                            <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
+                            <input name="name" type="text" class="form-control" placeholder="Username">
+                            </div>
+                            <span class="help-block" id="error"></span>
+                        </div>
+                                
+                        <div class="form-group">
+                            <div class="input-group">
+                            <div class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></div>
+                            <input name="email" type="text" class="form-control" placeholder="Email">
+                            </div> 
+                            <span class="help-block" id="error"></span>                     
+                        </div>
+                                
+                        <div class="row">
+                                
+                            <div class="form-group col-lg-6">
+                                <div class="input-group">
+                                <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                                <input name="password" id="password" type="password" class="form-control" placeholder="Password">
+                                </div>  
+                                <span class="help-block" id="error"></span>                    
+                            </div>
+                                    
+                            <div class="form-group col-lg-6">
+                                <div class="input-group">
+                                <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                                <input name="cpassword" type="password" class="form-control" placeholder="Retype Password">
+                                </div>  
+                                <span class="help-block" id="error"></span>                    
+                            </div>
+                                    
+                        </div>
+                                
+                                
+                    </div>
+                    
+                    <div class="form-footer">
+                            <button type="submit" class="btn btn-info">
+                            <span class="glyphicon glyphicon-log-in"></span> Sign Me Up !
+                            </button>
+                    </div>
+        
+        
+                    </form>
+                    <script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/jquery-1.11.2.min.js"></script>
+<script src="assets/jquery.validate.min.js"></script>
+<!-- javascript/jquery validations will be here  -->
+            
 </body>
 </html>

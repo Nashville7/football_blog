@@ -7,7 +7,7 @@
           "date":"25 April 2019",
           "description":"Hazard, now 28, joined Chelsea in June 2012 from Lille. The Belgium captain signed a contract extension in February 2015, which expires in June 2020, so will have 12 months to run come the end of the 2018-19 season. This next deal will likely be the biggest of Hazard's career, when he is at his peak.",
           "description2":" Eden Hazard claims he's made a decision about his future but does that mean he's leaving Chelsea for Real Madrid?",
-          "author": "Dj Nash",
+          "author": "© 2019 Hestview Ltd.",
           "parallax": "parallax"
         },
 
@@ -18,9 +18,10 @@
           "date":"25 April 2019",
           "description": "Philippe Coutinho will not be short of options if he decides to leave Barcelona in the summer the Daily Mail reports Chelsea, Paris Saint-Germain and Manchester United are all keeping tabs with Barcelona willing to sell him for the right price in the summer",
           "description2": "Barcelona have been warned that they must sell Philippe Coutinho after his continued poor displays, according to a Spanish journalist.",
-          "author": "Yebo",
+          "author": "© 2019 Hestview Ltd.",
           "parallax": "parallax"
         },
+
         { 
           "id": 3, 
           "title": "Sarri on Hudson Odio",
@@ -28,7 +29,7 @@
           "date":"25 April 2019",
           "description": "The teenage Chelsea forward has burst onto the scene with club and country and is being backed to make an even greater impact at Stamford Bridge.Maurizio Sarri says Callum Hudson-Odoi has a huge future at Chelsea as he ponders whether to hand him his first Premier League start.",
           "description2":"Maurizio Sarri has insisted his cautious use of Callum Hudson-Odoi in the Premier League is for the teenager’s own good and the Italian head coach preached patience as England’s latest full international prepares to resume life on the Chelsea bench.",
-          "author": "Yebo" 
+          "author": "© 2019 Hestview Ltd." 
         }
     ],
 
@@ -40,6 +41,7 @@
           "password": "password here"
         }
     ],
+    
     "profile": { 
         "name": "typicode" 
     }

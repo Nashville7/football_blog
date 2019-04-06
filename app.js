@@ -13,6 +13,8 @@ var routes = [
   require('./routes/view'),
   require('./routes/update'),
   require('./routes/delete'),
+  // made for register
+  require('./routes/register'),
 ]
 
 var app = express();
@@ -29,6 +31,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes[0]);
 app.use('/users', routes[1]);
+// made for register
+app.use('/register', routes[6]);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
