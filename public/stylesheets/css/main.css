@@ -60,6 +60,14 @@
   color: #636060 auto;
   opacity: 1; }
 
+.btn-outline-secondary {
+  color: #6c757d;
+  border-color: #6c757d;
+  margin-left: 8px; }
+
+.button-container {
+  text-align: center; }
+
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   overflow-x: hidden; }
