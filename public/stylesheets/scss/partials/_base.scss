@@ -2,18 +2,14 @@ body {
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
     overflow-x: hidden;
   }
-  
+
+  //Banner image 
   header {
-    background-color: rgb(60, 60, 179);
-    /* background-image: linear-gradient(-45deg, rgba(115, 133, 144, 0.17) 50%, rgba(0, 0, 0, 0.2) 50%),url(../images/drogba.jpg); */
-    // background-image: linear-gradient(-45deg, rgba(115, 133, 144, 0.17) 50%, rgba(0, 0, 0, 0.2) 50%),url(/images/eden-best.jpg);
-    // background-image: url(/images/eden-best.jpg);
     background-image: url(/images/messi.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 120vh;
     width: 100vw;
-  
   } 
 
   
@@ -23,7 +19,6 @@ h1 {
     font-size: 60px !important;
     text-align: center;
     font-family: 'Cinzel', serif;
-    // font-family: 'Aclonica', sans-serif;
     font-weight: bolder;
     margin-top: 0px;
     

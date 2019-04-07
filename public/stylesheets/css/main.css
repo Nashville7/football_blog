@@ -73,8 +73,6 @@ body {
   overflow-x: hidden; }
 
 header {
-  background-color: #3c3cb3;
-  /* background-image: linear-gradient(-45deg, rgba(115, 133, 144, 0.17) 50%, rgba(0, 0, 0, 0.2) 50%),url(../images/drogba.jpg); */
   background-image: url(/images/messi.jpg);
   background-repeat: no-repeat;
   background-size: cover;

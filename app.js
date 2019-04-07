@@ -15,6 +15,8 @@ var routes = [
   require('./routes/delete'),
   // made for register
   require('./routes/register'),
+
+  require('./routes/sign-in'),
 ]
 
 var app = express();
@@ -33,6 +35,8 @@ app.use('/', routes[0]);
 app.use('/users', routes[1]);
 // made for register
 app.use('/register', routes[6]);
+
+app.use('/sign-in', routes[7]);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
