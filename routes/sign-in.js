@@ -10,7 +10,7 @@ var request = require('request');
 router.get('/', function(req, res, next){
     res.render('sign-in', {
         title: 'Sign-in',
-        signInError:req.app.locals.signInError,
+        signError:req.app.locals.signError,
     });
 });
 
@@ -36,7 +36,7 @@ router.post('/', function(req, res, next){
             //  sets the correct sign in variables
             req.app.locals.user = logUser;
             req.app.locals.userIndex = i;
-            req.app.locals.signInError = "Log in Succesful";
+            req.app.locals.signError = "Log in Succesful";
 
 
             // it must redirect to the home page after sign in
