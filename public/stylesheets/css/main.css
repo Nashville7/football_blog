@@ -124,4 +124,14 @@ footer {
   .one img:hover {
     opacity: 1; }
 
+/* Responsive Design */
+/* Mobile Devices */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  header {
+    background-position: center !important; }
+
+  .one {
+    display: inline-block; } }
+
 /*# sourceMappingURL=main.css.map */
